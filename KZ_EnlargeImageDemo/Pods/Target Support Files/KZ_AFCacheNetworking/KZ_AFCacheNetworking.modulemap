@@ -1,0 +1,6 @@
+framework module KZ_AFCacheNetworking {
+  umbrella header "KZ_AFCacheNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

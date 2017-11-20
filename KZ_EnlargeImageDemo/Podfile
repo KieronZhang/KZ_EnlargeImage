@@ -1,0 +1,12 @@
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+target 'KZ_EnlargeImage' do
+    
+    pod 'KZ_AFCacheNetworking'
+    pod 'KZ_ReuseScrollView'
+    pod 'KZ_Categories'
+    pod 'KZ_MacroDefinition'
+
+end
