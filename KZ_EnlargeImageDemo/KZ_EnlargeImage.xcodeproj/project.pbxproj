@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5AF3F596EC1CE38DE56A7070 /* Pods_KZ_EnlargeImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3425D4C19AB203CE4E517F2 /* Pods_KZ_EnlargeImage.framework */; };
-		AEA5EBEB1FC2AA4A003D7BD1 /* KZ_EnlargeImageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBEA1FC2AA4A003D7BD1 /* KZ_EnlargeImageFramework.framework */; };
+		AE9A26001FC5F5D000668BA7 /* KZ_EnlargeImageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25FF1FC5F5D000668BA7 /* KZ_EnlargeImageFramework.framework */; };
 		AEF178AD1E0F263F003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF178AC1E0F263F003D041A /* main.m */; };
 		AEF178B01E0F263F003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF178AF1E0F263F003D041A /* AppDelegate.m */; };
 		AEF178B31E0F263F003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF178B21E0F263F003D041A /* ViewController.m */; };
@@ -39,7 +39,7 @@
 		4B2107EF6A0C29D464B20C23 /* Pods-KZ_EnlargeImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_EnlargeImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_EnlargeImage/Pods-KZ_EnlargeImage.release.xcconfig"; sourceTree = "<group>"; };
 		6A6455E03E5193C0781A85A7 /* Pods_KZ_EnlargeImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_EnlargeImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3425D4C19AB203CE4E517F2 /* Pods_KZ_EnlargeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_EnlargeImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEA5EBEA1FC2AA4A003D7BD1 /* KZ_EnlargeImageFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_EnlargeImageFramework.framework; sourceTree = "<group>"; };
+		AE9A25FF1FC5F5D000668BA7 /* KZ_EnlargeImageFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_EnlargeImageFramework.framework; sourceTree = "<group>"; };
 		AEF178A81E0F263F003D041A /* KZ_EnlargeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_EnlargeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF178AC1E0F263F003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF178AE1E0F263F003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AF3F596EC1CE38DE56A7070 /* Pods_KZ_EnlargeImage.framework in Frameworks */,
-				AEA5EBEB1FC2AA4A003D7BD1 /* KZ_EnlargeImageFramework.framework in Frameworks */,
+				AE9A26001FC5F5D000668BA7 /* KZ_EnlargeImageFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 		AEA5EBE91FC2AA4A003D7BD1 /* EnlargeImage */ = {
 			isa = PBXGroup;
 			children = (
-				AEA5EBEA1FC2AA4A003D7BD1 /* KZ_EnlargeImageFramework.framework */,
+				AE9A25FF1FC5F5D000668BA7 /* KZ_EnlargeImageFramework.framework */,
 			);
 			path = EnlargeImage;
 			sourceTree = "<group>";
