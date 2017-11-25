@@ -19,13 +19,14 @@ PODS:
     - KZ_Categories
     - KZ_DatabaseModel
     - SDWebImage (~> 3.8.2)
-  - KZ_Categories (0.1)
+  - KZ_Categories (0.1.1):
+    - KZ_JSON
   - KZ_Database (0.1):
     - KZ_JSON
   - KZ_DatabaseModel (0.1):
     - KZ_Database
     - KZ_Model
-  - KZ_JSON (0.1)
+  - KZ_JSON (0.1.1)
   - KZ_MacroDefinition (0.1)
   - KZ_Model (0.1):
     - KZ_JSON
@@ -43,10 +44,10 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   KZ_AFCacheNetworking: 877b92600efe04a78c5e2bd898ee4ccfef595e82
-  KZ_Categories: 260eb48aa4279824567d44f43c6db55fce1da52e
+  KZ_Categories: d6912d6f71c2eab6d427f806e7129a9bbbd00e96
   KZ_Database: 9bc9444960a8ba7abce04958d65a5b231bcc0793
   KZ_DatabaseModel: dc00619dfb63f6a733b88961cf0e1d5e3ac2bc58
-  KZ_JSON: 78f4e58e3604928dc0fb801dde9f97aad0c0b636
+  KZ_JSON: 29f35829b005d283411de59f4063de5bfc1ebdcb
   KZ_MacroDefinition: a05fc994e414f159cff52e8fecbd060b611c7b47
   KZ_Model: 477ad89c2fe335bb69c46c669f432d5ee6543a55
   KZ_ReuseScrollView: 618e9619a6f6d1b97655225bb0bcba2c21e2ef85
