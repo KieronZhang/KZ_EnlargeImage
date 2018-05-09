@@ -1,6 +1,0 @@
-framework module KZ_Model {
-  umbrella header "KZ_Model-umbrella.h"
-
-  export *
-  module * { export * }
-}

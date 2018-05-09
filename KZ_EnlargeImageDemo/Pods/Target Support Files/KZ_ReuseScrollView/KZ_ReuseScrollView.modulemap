@@ -1,6 +1,0 @@
-framework module KZ_ReuseScrollView {
-  umbrella header "KZ_ReuseScrollView-umbrella.h"
-
-  export *
-  module * { export * }
-}
