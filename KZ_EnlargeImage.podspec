@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_EnlargeImage'
-    s.version = '0.1.1'
+    s.version = '0.1.2'
     s.summary = 'iOS enlargeImage.'
     s.homepage = 'https://github.com/KieronZhang/KZ_EnlargeImage'
     s.license = {:type => 'MIT', :file => 'LICENSE'}

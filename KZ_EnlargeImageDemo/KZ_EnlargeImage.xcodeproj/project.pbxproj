@@ -16,7 +16,7 @@
 		AE40028D20A2932000017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40028C20A2932000017619 /* main.m */; };
 		AE40029320A2938700017619 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40029220A2938700017619 /* NavigationController.m */; };
 		AE40029620A2939C00017619 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40029520A2939C00017619 /* TestCell.m */; };
-		AE40029E20A2946200017619 /* KZ_EnlargeImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40029D20A2946200017619 /* KZ_EnlargeImage_iOS.framework */; };
+		AEF94DF2217871420063EE69 /* KZ_EnlargeImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DF1217871420063EE69 /* KZ_EnlargeImage_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		AE40029220A2938700017619 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		AE40029420A2939C00017619 /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
 		AE40029520A2939C00017619 /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
-		AE40029D20A2946200017619 /* KZ_EnlargeImage_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_EnlargeImage_iOS.framework; sourceTree = "<group>"; };
+		AEF94DF1217871420063EE69 /* KZ_EnlargeImage_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_EnlargeImage_iOS.framework; sourceTree = "<group>"; };
 		B5B5C1035E09E1A952867500 /* Pods-KZ_EnlargeImage_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_EnlargeImage_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_EnlargeImage_iOS/Pods-KZ_EnlargeImage_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E470324BCEB72C7B26207970 /* Pods_KZ_EnlargeImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_EnlargeImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE40029E20A2946200017619 /* KZ_EnlargeImage_iOS.framework in Frameworks */,
+				AEF94DF2217871420063EE69 /* KZ_EnlargeImage_iOS.framework in Frameworks */,
 				74C17CF9737D7E77BC44F6CC /* Pods_KZ_EnlargeImage_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,7 +112,7 @@
 		AE40029C20A2946200017619 /* EnlargeImage */ = {
 			isa = PBXGroup;
 			children = (
-				AE40029D20A2946200017619 /* KZ_EnlargeImage_iOS.framework */,
+				AEF94DF1217871420063EE69 /* KZ_EnlargeImage_iOS.framework */,
 			);
 			path = EnlargeImage;
 			sourceTree = "<group>";
@@ -367,7 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-EnlargeImage-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.EnlargeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -391,7 +391,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-EnlargeImage-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.EnlargeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

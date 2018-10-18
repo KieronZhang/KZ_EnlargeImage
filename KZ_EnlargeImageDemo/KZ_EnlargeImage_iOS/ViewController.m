@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [KZ_FPSLabel showFPSLabelWithView:[UIApplication sharedApplication].keyWindow center:CGPointMake(KZ_SCREEN_WIDTH - 50, KZ_SCREEN_HEIGHT - 50)];
+    [KZ_FPSLabel showFPSLabelWithView:[UIApplication sharedApplication].keyWindow center:CGPointMake(KZ_Screen_Width - 50, KZ_Screen_Height - 50)];
     
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"清除缓存" style:UIBarButtonItemStylePlain target:self action:@selector(rightButton)];
     self.navigationItem.rightBarButtonItem = rightButton;

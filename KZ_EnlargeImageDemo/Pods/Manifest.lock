@@ -1,11 +1,11 @@
 PODS:
-  - KZ_Categories (0.1.3):
+  - KZ_Categories (0.1.4):
     - KZ_JSON
-  - KZ_FPSLabel (0.1.1)
-  - KZ_JSON (0.1.2)
-  - KZ_MacroDefinition (0.1.1)
-  - KZ_ReuseScrollView (0.1.1)
-  - KZ_WebImage (0.1.1)
+  - KZ_FPSLabel (0.1.2)
+  - KZ_JSON (0.1.3)
+  - KZ_MacroDefinition (0.1.3)
+  - KZ_ReuseScrollView (0.1.2)
+  - KZ_WebImage (0.1.2)
 
 DEPENDENCIES:
   - KZ_Categories
@@ -15,7 +15,7 @@ DEPENDENCIES:
   - KZ_WebImage
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - KZ_Categories
     - KZ_FPSLabel
     - KZ_JSON
@@ -24,13 +24,13 @@ SPEC REPOS:
     - KZ_WebImage
 
 SPEC CHECKSUMS:
-  KZ_Categories: 84a90f91256ed74522fd0ded1e2bed094d5a6dd3
-  KZ_FPSLabel: 8f2fdd7c6c96b5020caf6024e527329807aa1420
-  KZ_JSON: 71ee38a4e9a97b46c3c302408b9329051bb49980
-  KZ_MacroDefinition: 880f8b055e28f317d651f04c6b81b8af387051d0
-  KZ_ReuseScrollView: d3f4b7008ae4b5b7fd0b3807a2dbd155b919042f
-  KZ_WebImage: a9d91ba3563b992c7287ab0988ae94b36d5a17a4
+  KZ_Categories: 42389791377f182cd87581d23ea873c7a7b87a66
+  KZ_FPSLabel: 7d54db9fa0696b6713d73026cb32a7a9eb6bc129
+  KZ_JSON: 4e4766cb638fb95fd0b9aa95de506acc6d5735eb
+  KZ_MacroDefinition: 227068cb3523c1479660e6c248d8856592c45332
+  KZ_ReuseScrollView: aabd6c6a5f2045e8f6f687e5c340ed676d35a4d4
+  KZ_WebImage: e8649e02c82f1037582166a08b5874cef19b0b59
 
 PODFILE CHECKSUM: 6048ff0fa2624be17f5faa433739353ca002bc6f
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
