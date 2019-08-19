@@ -10,14 +10,13 @@
 
 @interface KZ_Button (KZ_WebCache)
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 - (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state;
 - (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state placeholderImage:(nullable KZ_Image *)placeholder;
 - (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state placeholderImage:(nullable KZ_Image *)placeholder options:(KZ_WebCacheImageOptions)options;
 - (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;
 - (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state placeholderImage:(nullable KZ_Image *)placeholder success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;
 - (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state placeholderImage:(nullable KZ_Image *)placeholder options:(KZ_WebCacheImageOptions)options success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;
-- (void)kz_setImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state placeholderImage:(nullable KZ_Image *)placeholder options:(KZ_WebCacheImageOptions)options progress:(nullable KZ_WebCacheImageDownloaderProgressBlock)progress success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;
 
 - (void)kz_setBackgroundImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state;
 - (void)kz_setBackgroundImageWithURL:(nullable NSURL *)URL forState:(UIControlState)state placeholderImage:(nullable KZ_Image *)placeholder;

@@ -18,7 +18,7 @@
 - (void)kz_setImageWithURL:(nullable NSURL *)URL placeholderImage:(nullable KZ_Image *)placeholder options:(KZ_WebCacheImageOptions)options success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;
 - (void)kz_setImageWithURL:(nullable NSURL *)URL placeholderImage:(nullable KZ_Image *)placeholder options:(KZ_WebCacheImageOptions)options progress:(nullable KZ_WebCacheImageDownloaderProgressBlock)progress success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 - (void)kz_setHighlightedImageWithURL:(nullable NSURL *)URL;
 - (void)kz_setHighlightedImageWithURL:(nullable NSURL *)URL options:(KZ_WebCacheImageOptions)options;
 - (void)kz_setHighlightedImageWithURL:(nullable NSURL *)URL success:(nullable KZ_WebCacheImageDownloaderFinishedBlock)success failure:(nullable KZ_WebCacheImageDownloaderFailedBlock)failure;

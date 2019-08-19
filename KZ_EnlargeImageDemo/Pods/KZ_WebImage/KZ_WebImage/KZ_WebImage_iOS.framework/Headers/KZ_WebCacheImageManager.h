@@ -35,7 +35,7 @@ typedef NS_OPTIONS(NSUInteger, KZ_WebCacheImageOptions) {
     KZ_WebCacheImageOptions_NotShowGif = 1 << 99 //如果是gif图也不显示动态
 };
 
-typedef void(^KZ_WebCacheImageDownloaderProgressBlock)(NSInteger receivedSize, NSInteger expectedSize);
+typedef void(^KZ_WebCacheImageDownloaderProgressBlock)(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL);
 typedef void(^KZ_WebCacheImageDownloaderFinishedBlock)(KZ_Image * _Nullable image, KZ_ImageCacheType cacheType, NSURL * _Nullable imageURL);
 typedef void(^KZ_WebCacheImageDownloaderFailedBlock)(NSError * _Nullable error, KZ_ImageCacheType cacheType, NSURL * _Nullable imageURL);
 

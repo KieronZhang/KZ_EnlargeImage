@@ -10,12 +10,12 @@
 #define KZ_WebCacheHeader_h
 
 #import <Foundation/Foundation.h>
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 #import <UIKit/UIKit.h>
 #define KZ_ImageView UIImageView
 #define KZ_Image UIImage
 #define KZ_Button UIButton
-#elif TARGET_OS_MAC
+#elif TARGET_OS_OSX
 #import <Cocoa/Cocoa.h>
 #define KZ_ImageView NSImageView
 #define KZ_Image NSImage

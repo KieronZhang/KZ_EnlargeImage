@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIViewControllerPreviewingDelegate>
+@interface ViewController : UIViewController
 
 @end
